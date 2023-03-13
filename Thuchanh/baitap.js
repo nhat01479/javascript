@@ -8,7 +8,7 @@ function Tinhdiem(){
     let sinh=parseInt(diemsinh);
     let dtb=(ly+hoa+sinh)/3;
     let tong=ly+hoa+sinh;
-    document.getElementById('dtb').innerHTML="Tổng điểm là: " + dtb;
+    document.getElementById('dtb').innerHTML="Điểm trung bình là: " + dtb;
     document.getElementById('tong').innerHTML="Tổng điểm là: " + tong;
 }
 
